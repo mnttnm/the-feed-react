@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "3Blue1Brown",
+    "Description": "Comprehensive and Easy to understand videos on complex topics. The content combination of math and entertainment. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.",
+    "Link": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw",
+    "Rating": 9.5,
+    "Views": 1,
+    "timestamp": 3984938493,
+    "Tags": "education, maths"
+  },
+  {
+    "Title": "TheChernoProject",
+    "Description": "My favorite instructor and programming channel. The way he explains the things at fundamental is just commendable. Just watching him coding is an amazing experience.",
+    "Link": "https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw",
+    "Rating": 9.5,
+    "Views": 1,
+    "timestamp": 3984938498,
+    "Tags": "education, programming, c++, java, game-programming"
+  },
+  {
+    "Title": "The Net Ninja",
+    "Description": "Huge collection of web development tutorials.Topics range from front-end to back-end. Comprehensive coverage\non latest framework and libraries in web programming. Amazing Instructor and beneficial resource.",
+    "Link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+    "Rating": 9.5,
+    "Views": 1,
+    "timestamp": 3987838498,
+    "Tags": "education, programming, javascript, react, web-development, nodejs, mongodb"
+  },
+  {
+    "Title": "Siraj Raval",
+    "Description": "In the words of Instructor: \n I 'm on a mission to inspire and educate developers to build Artificial Intelligence that will benefit humanity. Games, apps, music, chatbots, art, you name it - I'll teach you how to make it all yourself. The best resource available to learning personality and related topics.",
+    "Link": "https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A",
+    "Rating": 9.5,
+    "Views": 1,
+    "timestamp": 39878987498,
+    "Tags": "education, programming, personality, data-science, crypto"
+  }
+]

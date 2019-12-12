@@ -1,0 +1,6 @@
+Notes:
+// "build-babel": "babel app.js --out-file=./public/scripts/app.js --presets=env,react"
+
+Webpack:
+    "build": "webpack", //creates a new bundle.js file
+    "dev-server": "webpack-dev-server" // it does not create a bundle.js file and serve the content from memory

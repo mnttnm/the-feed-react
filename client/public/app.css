@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium-webfont.woff') format('woff');
+}
+
+/* :root {
+    --primary: #FFE9D2;
+    --secondary: rgb(250, 204, 160);
+    --secondary-dark: rgb(250, 178, 111);
+    --secondary-transparent: rgba(250, 203, 160, 0.712);
+    --title: #71BDEB;
+    --grey-light: #ecececd3;
+    --grey-dark: #585a5aa2;
+} */
+
+body {
+    background: #564E3D;
+    font-family: 'Roboto';
+}
+
+.post-stats {
+    margin-top: 6px;
+    display: inline-flex;
+    border: 0px solid var(--secondary-dark);
+    align-items: center;
+}
+
+.rating,
+.views {
+    display: flex;
+    align-items: center;
+}
+
+#rating-value {
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+#views-label {
+    margin-left: 4px;
+    font-size: 1em;
+}
+
+#views-value {
+    font-weight: bold;
+}
+
+.separater {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.rating-icon {
+    color: #f3b234;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.filter-wrapper {
+    width: 15%;
+    border: 1px solid #dbe0d3;
+    padding: 10px;
+    background: #B5905E;
+    height: 80vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-apply-button{
+    margin: auto;
+    margin-top: 10px;
+}
+
+#main-content {
+    margin-top: 110px;
+    display: flex;
+    padding: 5px;
+}
+
+#category-selctor {
+    width: 100px;
+    padding: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #fefefe;
+    margin: auto;
+    box-shadow: 2px 3px 8px #00000641;
+    width: 60%;
+}
+
+.tag-checkbox{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 960px){
+    .tag-checkbox{
+        width: 50%;
+    }
+    .post-footer{
+        flex-direction: row;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .tag-checkbox{
+        width: 50%;
+    }
+    .post-footer{
+        flex-direction: row;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .filter-wrapper{
+        visibility: hidden;
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.selctor {
+    padding: 5px;
+    border: none;
+    font-size: 1em;
+    margin-top: 3px;
+}
+
+.inputs {
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+{
+  "name": "the-feed-react",
+  "version": "1.0.0",
+  "description": "The react based implementation for the origin project",
+  "author": "Mohit ",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "start-client": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.2",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "global": "^4.4.0",
+    "json-loader": "^0.5.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "socket.io": "^2.2.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.3.2",
+    "uuid": "^3.3.3",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.0",
+    "file-loader": "^4.2.0"
+  }
+}

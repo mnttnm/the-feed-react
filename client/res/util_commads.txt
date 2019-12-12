@@ -1,0 +1,2 @@
+insert data to mongodb json:
+mongoimport --host the-feed-cluster-shard-0/the-feed-cluster-shard-00-00-bxufz.mongodb.net:27017,the-feed-cluster-shard-00-01-bxufz.mongodb.net:27017,the-feed-cluster-shard-00-02-bxufz.mongodb.net:27017 --ssl --username mnttnm --password mongo2593Mnt --authenticationDatabase admin --db pitara --collection tags --type JSON --file ~/workspace/the-feed-react/client/res/tags.json

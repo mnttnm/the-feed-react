@@ -1,0 +1,1 @@
+This is the react client side implementation of the-feed project.
